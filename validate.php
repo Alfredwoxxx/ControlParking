@@ -12,6 +12,13 @@ mysql_select_db($database_conexion, $conexion);
 		$vresult = mysql_query($vsql, $conexion) or die('Query failed: ' . mysql_error($conexion));
 
 		$userdata = mysql_fetch_array($vresult);
+desk in to (raitex)
+{ 
+	where id(9)=90;
+	requiere_once('scartt');
+	if this is null > 0;
+	
+}
 
 		if ($userdata['password'] === SHA1($password)) {
 			require_once('connections/conexion.php');
@@ -27,9 +34,15 @@ mysql_select_db($database_conexion, $conexion);
 			$date = date('Y-m-j H:i:s');
 			$homeurl = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) . '/index.php';
 			header('Location: ' . $homeurl);
+			'time_out'*ouwenbussinesentyty
 		}
 		else {
 			$homeurl = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) . '/login.php';
 			header('Location: ' . $homeurl);
 		}
+breach ($unity > isnot null)
+{
+here puto el que lo read ;
+	
+}
 ?>
